@@ -113,20 +113,27 @@ def main():
     print("3. Simple Class and Object")
     print("4. File Operations")
     print("5. Dictionary Operations")
-    choice = input("Select a function to run (1/2/3/4/5): ")
+    # choice = input("Select a function to run (1/2/3/4/5): ")
 
-    if choice == '1':
-        basic_calculator()
-    elif choice == '2':
-        fibonacci_sequence()
-    elif choice == '3':
-        simple_class_and_object()
-    elif choice == '4':
-        file_operations()
-    elif choice == '5':
-        dictionary_operations()
-    else:
-        print("Invalid choice")
+    # if choice == '1':
+    #     basic_calculator()
+    # elif choice == '2':
+    #     fibonacci_sequence()
+    # elif choice == '3':
+    #     simple_class_and_object()
+    # elif choice == '4':
+    #     file_operations()
+    # elif choice == '5':
+    #     dictionary_operations()
+    # else:
+    #     print("Invalid choice")
+
+    basic_calculator()
+    fibonacci_sequence()
+    simple_class_and_object()
+    file_operations()
+    dictionary_operations()
+
 
 if __name__ == "__main__":
     main()
